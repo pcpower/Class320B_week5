@@ -15,13 +15,13 @@ function App() {
 
   useEffect(() => {
     async function fetchPeople() {
-      let res = await fetch('http https://swapi.dev/api/people/schema/');
+      let res = await fetch('https://swapi.dev/api/people/');
       let data = await res.json();
       setPeople(data.results);
     }
 
     async function fetchPlanets() {
-      let res = await fetch('http https://swapi.dev/api/planets/schema/');
+      let res = await fetch('https://swapi.dev/api/planets/');
       let data = await res.json();
       setPlanets(data.results);
     }

@@ -13,12 +13,16 @@ export default function Planets({ data }) {
                         <Card.Content>
                             <Card.Header>{planets.name}</Card.Header>
                             <Card.Description>
-                                <strong>CLimate</strong>
+                                <strong>Climate</strong>
                                 <p>{planets.climate}</p>
-                                <strong>Mass</strong>
+                                <strong>Diameter</strong>
                                 <p>{planets.diameter}</p>
-                                <strong>Hair Color</strong>
+                                <strong>population</strong>
                                 <p>{planets.population}</p>
+                                <strong>Gravity</strong>
+                                <p>{planets.gravity}</p>
+                                <strong>Orbital Period</strong>
+                                <p>{planets.orbital_period}</p>
                             </Card.Description>
                         </Card.Content>
                     </Card>

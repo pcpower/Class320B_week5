@@ -16,9 +16,13 @@ export default function People({ data }) {
                                     <strong>Height</strong>
                                     <p>{people.height}</p>
                                     <strong>Mass</strong>
-                                    <p>{people.Mass}</p>
+                                    <p>{people.mass}</p>
                                     <strong>Hair Color</strong>
                                     <p>{people.hair_color}</p>
+                                    <strong>Gender</strong>
+                                    <p>{people.gender}</p>
+                                    <strong>Skin Color</strong>
+                                    <p>{people.skin_color}</p>
                                 </Card.Description>
                             </Card.Content>
                         </Card>
