@@ -5,7 +5,7 @@ export default function Planets({ data }) {
     return (
         <>
         <h1>Planets</h1>
-        <Grid columns={3}>
+        <Grid columns={4}>
         {data.map((planets, i) => {
             return (
                 <Grid.Column key={i}>

@@ -18,18 +18,18 @@ function App() {
       let res = await fetch('https://swapi.dev/api/people/');
       let data = await res.json();
       setPeople(data.results);
+      setLoading(false);
     }
 
     async function fetchPlanets() {
       let res = await fetch('https://swapi.dev/api/planets/');
       let data = await res.json();
       setPlanets(data.results);
+      setLoading(false);
     }
 
       fetchPeople();
       fetchPlanets();
-      setLoading(false);
-    
   }, [])
   console.log("data", people);
   console.log("data", planets);
