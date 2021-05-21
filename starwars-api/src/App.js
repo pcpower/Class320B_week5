@@ -31,8 +31,7 @@ function App() {
       fetchPeople();
       fetchPlanets();
   }, [])
-  console.log("data", people);
-  console.log("data", planets);
+
   return (
     <div className="App">
       <>
